@@ -51,6 +51,7 @@ def total_gross(source)
   ans2 = list_of_directors(source)
   while index < source.size do 
     sum += ans[ans2[index]]
+    index += 1 
   end
   sum
 end
