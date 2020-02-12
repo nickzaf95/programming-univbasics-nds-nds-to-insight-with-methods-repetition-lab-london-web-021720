@@ -46,6 +46,7 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   index = 0 
+  sum = 0 
   while index < source.size do 
     sum += directors_totals[list_of_directors[index]]
   end
